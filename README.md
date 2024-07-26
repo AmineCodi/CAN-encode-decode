@@ -26,13 +26,14 @@ uint8_t frame[8] = {0};
 encode(frame, 123.4, 16, 16, true, false, 0.1, 0);
 ```
 ## Parameters
-* is_big_endian: Boolean indicating if the format is big-endian (Motorola) or little-endian (Intel).
-* is_signed: Boolean indicating if the value is signed or unsigned.
-* factor: Scaling factor for the physical value.
-* offset: Offset to be added to the scaled value.
-* startbit: The starting bit position of the signal in the CAN frame.
-* length: The length of the signal in bits.
-* float_length: The length of the fractional part for IQ notation.
+* __Is_big_endian__: Boolean indicating if the format is big-endian (Motorola) or little-endian (Intel).
+* __Is_signed__: Boolean indicating if the value is signed or unsigned.
+* __Factor__: Scaling factor for the physical value.
+* __Offset__: Offset to be added to the scaled value.
+* __Startbit__: The starting bit position of the signal in the CAN frame.
+* __Length__: The length of the signal in bits.
+* __Float_length__: The length of the fractional part for IQ notation.
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
