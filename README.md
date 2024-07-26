@@ -10,11 +10,13 @@ This repository contains a C++ header file for encoding and decoding CAN (Contro
 ## Usage
 - Include the header file in your project:
 '''C++
-#include "can_encode_decode_inl.h" '''
+#include "can_encode_decode_inl.h"
+'''
 - Decode a CAN signal:
 '''C++
 uint8_t frame[8] = {0x12, 0x34, 0x56, 0x78, 0x9A, 0xBC, 0xDE, 0xF0};
-float value = decode(frame, 16, 16, true, false, 0.1, 0);'''
+float value = decode(frame, 16, 16, true, false, 0.1, 0);
+'''
 
 - Encoding a CAN signal: 
 '''C++
