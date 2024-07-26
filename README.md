@@ -21,9 +21,10 @@ float value = decode(frame, 16, 16, true, false, 0.1, 0);
 ```
 
 - Encoding a CAN signal: 
-'''C++
+```cpp
 uint8_t frame[8] = {0};
-encode(frame, 123.4, 16, 16, true, false, 0.1, 0);'''
+encode(frame, 123.4, 16, 16, true, false, 0.1, 0);
+```
 ## Parameters
 * is_big_endian: Boolean indicating if the format is big-endian (Motorola) or little-endian (Intel).
 * is_signed: Boolean indicating if the value is signed or unsigned.
